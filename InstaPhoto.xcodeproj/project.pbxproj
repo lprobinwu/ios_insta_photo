@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		83814C6D1BBBA579000114D8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 83814C6C1BBBA579000114D8 /* main.m */; };
+		83814C701BBBA579000114D8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 83814C6F1BBBA579000114D8 /* AppDelegate.m */; };
+		83814C731BBBA579000114D8 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83814C721BBBA579000114D8 /* FeedViewController.m */; };
+		83814C761BBBA579000114D8 /* ProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83814C751BBBA579000114D8 /* ProfileViewController.m */; };
+		83814C791BBBA579000114D8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83814C771BBBA579000114D8 /* Main.storyboard */; };
+		83814C7B1BBBA579000114D8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83814C7A1BBBA579000114D8 /* Images.xcassets */; };
+		83814C7E1BBBA579000114D8 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 83814C7C1BBBA579000114D8 /* LaunchScreen.xib */; };
+		83814C8A1BBBA579000114D8 /* InstaPhotoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 83814C891BBBA579000114D8 /* InstaPhotoTests.m */; };
+		83CF7FC61BBCD6760006F804 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 83CF7FC51BBCD6760006F804 /* Default-568h@2x.png */; settings = {ASSET_TAGS = (); }; };
+		83CF7FC81BBD09280006F804 /* RobinWu.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 83CF7FC71BBD09280006F804 /* RobinWu.jpg */; settings = {ASSET_TAGS = (); }; };
+		83E61E241BBE1BE10080D95F /* FavoritesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E61E231BBE1BE10080D95F /* FavoritesViewController.m */; settings = {ASSET_TAGS = (); }; };
+		83E61E271BBE5A2D0080D95F /* FeedTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83E61E261BBE5A2D0080D95F /* FeedTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		83814C841BBBA579000114D8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83814C5F1BBBA579000114D8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 83814C661BBBA579000114D8;
+			remoteInfo = InstaPhoto;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		83814C671BBBA579000114D8 /* InstaPhoto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = InstaPhoto.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		83814C6B1BBBA579000114D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83814C6C1BBBA579000114D8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		83814C6E1BBBA579000114D8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		83814C6F1BBBA579000114D8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		83814C711BBBA579000114D8 /* FeedViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		83814C721BBBA579000114D8 /* FeedViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		83814C741BBBA579000114D8 /* ProfileViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ProfileViewController.h; sourceTree = "<group>"; };
+		83814C751BBBA579000114D8 /* ProfileViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ProfileViewController.m; sourceTree = "<group>"; };
+		83814C781BBBA579000114D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		83814C7A1BBBA579000114D8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		83814C7D1BBBA579000114D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		83814C831BBBA579000114D8 /* InstaPhotoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InstaPhotoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		83814C881BBBA579000114D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83814C891BBBA579000114D8 /* InstaPhotoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InstaPhotoTests.m; sourceTree = "<group>"; };
+		83CF7FC51BBCD6760006F804 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		83CF7FC71BBD09280006F804 /* RobinWu.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = RobinWu.jpg; path = ../../../../Downloads/RobinWu.jpg; sourceTree = "<group>"; };
+		83E61E221BBE1BE10080D95F /* FavoritesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FavoritesViewController.h; sourceTree = "<group>"; };
+		83E61E231BBE1BE10080D95F /* FavoritesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FavoritesViewController.m; sourceTree = "<group>"; };
+		83E61E251BBE5A2D0080D95F /* FeedTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedTableViewController.h; sourceTree = "<group>"; };
+		83E61E261BBE5A2D0080D95F /* FeedTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		83814C641BBBA579000114D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83814C801BBBA579000114D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		83814C5E1BBBA579000114D8 = {
+			isa = PBXGroup;
+			children = (
+				83CF7FC51BBCD6760006F804 /* Default-568h@2x.png */,
+				83814C691BBBA579000114D8 /* InstaPhoto */,
+				83814C861BBBA579000114D8 /* InstaPhotoTests */,
+				83814C681BBBA579000114D8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		83814C681BBBA579000114D8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				83814C671BBBA579000114D8 /* InstaPhoto.app */,
+				83814C831BBBA579000114D8 /* InstaPhotoTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83814C691BBBA579000114D8 /* InstaPhoto */ = {
+			isa = PBXGroup;
+			children = (
+				83814C6E1BBBA579000114D8 /* AppDelegate.h */,
+				83814C6F1BBBA579000114D8 /* AppDelegate.m */,
+				83814C711BBBA579000114D8 /* FeedViewController.h */,
+				83814C721BBBA579000114D8 /* FeedViewController.m */,
+				83E61E251BBE5A2D0080D95F /* FeedTableViewController.h */,
+				83E61E261BBE5A2D0080D95F /* FeedTableViewController.m */,
+				83E61E221BBE1BE10080D95F /* FavoritesViewController.h */,
+				83E61E231BBE1BE10080D95F /* FavoritesViewController.m */,
+				83814C741BBBA579000114D8 /* ProfileViewController.h */,
+				83814C751BBBA579000114D8 /* ProfileViewController.m */,
+				83814C771BBBA579000114D8 /* Main.storyboard */,
+				83814C7A1BBBA579000114D8 /* Images.xcassets */,
+				83CF7FC71BBD09280006F804 /* RobinWu.jpg */,
+				83814C7C1BBBA579000114D8 /* LaunchScreen.xib */,
+				83814C6A1BBBA579000114D8 /* Supporting Files */,
+			);
+			path = InstaPhoto;
+			sourceTree = "<group>";
+		};
+		83814C6A1BBBA579000114D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83814C6B1BBBA579000114D8 /* Info.plist */,
+				83814C6C1BBBA579000114D8 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		83814C861BBBA579000114D8 /* InstaPhotoTests */ = {
+			isa = PBXGroup;
+			children = (
+				83814C891BBBA579000114D8 /* InstaPhotoTests.m */,
+				83814C871BBBA579000114D8 /* Supporting Files */,
+			);
+			path = InstaPhotoTests;
+			sourceTree = "<group>";
+		};
+		83814C871BBBA579000114D8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				83814C881BBBA579000114D8 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		83814C661BBBA579000114D8 /* InstaPhoto */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83814C8D1BBBA579000114D8 /* Build configuration list for PBXNativeTarget "InstaPhoto" */;
+			buildPhases = (
+				83814C631BBBA579000114D8 /* Sources */,
+				83814C641BBBA579000114D8 /* Frameworks */,
+				83814C651BBBA579000114D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = InstaPhoto;
+			productName = InstaPhoto;
+			productReference = 83814C671BBBA579000114D8 /* InstaPhoto.app */;
+			productType = "com.apple.product-type.application";
+		};
+		83814C821BBBA579000114D8 /* InstaPhotoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 83814C901BBBA579000114D8 /* Build configuration list for PBXNativeTarget "InstaPhotoTests" */;
+			buildPhases = (
+				83814C7F1BBBA579000114D8 /* Sources */,
+				83814C801BBBA579000114D8 /* Frameworks */,
+				83814C811BBBA579000114D8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				83814C851BBBA579000114D8 /* PBXTargetDependency */,
+			);
+			name = InstaPhotoTests;
+			productName = InstaPhotoTests;
+			productReference = 83814C831BBBA579000114D8 /* InstaPhotoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		83814C5F1BBBA579000114D8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = "Robin Wu";
+				TargetAttributes = {
+					83814C661BBBA579000114D8 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					83814C821BBBA579000114D8 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 83814C661BBBA579000114D8;
+					};
+				};
+			};
+			buildConfigurationList = 83814C621BBBA579000114D8 /* Build configuration list for PBXProject "InstaPhoto" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 83814C5E1BBBA579000114D8;
+			productRefGroup = 83814C681BBBA579000114D8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				83814C661BBBA579000114D8 /* InstaPhoto */,
+				83814C821BBBA579000114D8 /* InstaPhotoTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		83814C651BBBA579000114D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83814C791BBBA579000114D8 /* Main.storyboard in Resources */,
+				83CF7FC61BBCD6760006F804 /* Default-568h@2x.png in Resources */,
+				83814C7E1BBBA579000114D8 /* LaunchScreen.xib in Resources */,
+				83814C7B1BBBA579000114D8 /* Images.xcassets in Resources */,
+				83CF7FC81BBD09280006F804 /* RobinWu.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83814C811BBBA579000114D8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		83814C631BBBA579000114D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E61E241BBE1BE10080D95F /* FavoritesViewController.m in Sources */,
+				83814C761BBBA579000114D8 /* ProfileViewController.m in Sources */,
+				83814C701BBBA579000114D8 /* AppDelegate.m in Sources */,
+				83814C731BBBA579000114D8 /* FeedViewController.m in Sources */,
+				83814C6D1BBBA579000114D8 /* main.m in Sources */,
+				83E61E271BBE5A2D0080D95F /* FeedTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83814C7F1BBBA579000114D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83814C8A1BBBA579000114D8 /* InstaPhotoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		83814C851BBBA579000114D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 83814C661BBBA579000114D8 /* InstaPhoto */;
+			targetProxy = 83814C841BBBA579000114D8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		83814C771BBBA579000114D8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83814C781BBBA579000114D8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		83814C7C1BBBA579000114D8 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				83814C7D1BBBA579000114D8 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		83814C8B1BBBA579000114D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		83814C8C1BBBA579000114D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		83814C8E1BBBA579000114D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupon.robinwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		83814C8F1BBBA579000114D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = InstaPhoto/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupon.robinwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		83814C911BBBA579000114D8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupon.robinwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaPhoto.app/InstaPhoto";
+			};
+			name = Debug;
+		};
+		83814C921BBBA579000114D8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = InstaPhotoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.groupon.robinwu.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/InstaPhoto.app/InstaPhoto";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		83814C621BBBA579000114D8 /* Build configuration list for PBXProject "InstaPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83814C8B1BBBA579000114D8 /* Debug */,
+				83814C8C1BBBA579000114D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83814C8D1BBBA579000114D8 /* Build configuration list for PBXNativeTarget "InstaPhoto" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83814C8E1BBBA579000114D8 /* Debug */,
+				83814C8F1BBBA579000114D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		83814C901BBBA579000114D8 /* Build configuration list for PBXNativeTarget "InstaPhotoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				83814C911BBBA579000114D8 /* Debug */,
+				83814C921BBBA579000114D8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 83814C5F1BBBA579000114D8 /* Project object */;
+}
